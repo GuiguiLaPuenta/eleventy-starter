@@ -2,7 +2,7 @@
 layout: page
 title: Welcome
 eleventyNavigation:
-  key: Bonjour
+  key: Accueil
 ---
 
 Bonjour à Eleventy starter.
