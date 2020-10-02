@@ -15,3 +15,14 @@ eleventyNavigation:
     </dialog>
 </div>
 
+<div x-data="{imageUrl:null}">
+    <ul>
+        <li><img src="/assets/images/thumbnails/animals-1.jpeg" alt="un animal"
+            @click="imageUrl = '/assets/images/animals-1.jpeg" ></li>
+        <li><img src="/assets/images/thumbnails/animals-2.jpeg" alt="un animal"
+            @click="imageUrl = '/assets/images/animals-2.jpeg"></li>
+    </ul>
+    <div x-show="!!imageUrl" @click.away="imageUrl=null">
+        <img :src="imageUrl" alt="">
+    </div>
+</div>
