@@ -10,7 +10,14 @@ module.exports = {
     extend: {
       colors: {
         'regal-blue': '#243c5a',
-      }
+      },
+
+      fontFamily: {
+        'sans': ['-apple-system', 'BlinkMacSystemFont',],
+        'serif': ['Georgia', 'Cambria',],
+        'mono': ['SFMono-Regular', 'Menlo',],
+        'h1': ['Oswald', ],
+        'body': ['Open Sans',],}
     },
   },
   variants: {},
