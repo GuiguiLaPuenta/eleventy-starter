@@ -19,6 +19,10 @@ module.exports = {
         'h1': ['Oswald', ],
         'body': ['Open Sans',],}
     },
+    screens: {
+      'portrait': {'raw': '(orientation: portrait)'},
+      // => @media (orientation: portrait) { ... }
+    },
   },
   variants: {},
   plugins: [],
